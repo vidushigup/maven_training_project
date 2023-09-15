@@ -1,0 +1,10 @@
+Couchbase Queries:
+
+1. select * from Employee where no_of_projects>0;
+ success , 4 documents
+
+2. select * from Employee where "java" IN technology;
+ success , 3 documents
+
+3. select * from Employee where department="qa";
+ success , 1 documents
